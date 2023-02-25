@@ -1,7 +1,7 @@
 from time import sleep
-
+SALUDO = "NOS ALEGRA QUE CREES UNA CUENTA CON NOSOTROS"
 def main ():
-    print("Nos alegra que crees una cuenta con nosotros\n")
+    print("\n" + SALUDO + "\n" + "-" * len(SALUDO))
     nombre = input("Introduce tu nombre: ")
     print("Bienvenido {}".format(nombre))
     edad = int(input("Introduzca su edad: "))
@@ -19,6 +19,10 @@ def main ():
     documento = int(input("Ingrese su numero de documento: "))
 
     print("DNI: {}".format(documento))
+
+    print("Fin del programa")
+    sleep(1)
+
 
 __name__ == "__ main __ "
 main () 
